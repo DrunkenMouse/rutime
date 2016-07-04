@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DAC2C61D2A3E8800EA7641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2C51D2A3E8800EA7641 /* main.m */; };
+		16DAC2C91D2A3E8800EA7641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2C81D2A3E8800EA7641 /* AppDelegate.m */; };
+		16DAC2CC1D2A3E8800EA7641 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2CB1D2A3E8800EA7641 /* ViewController.m */; };
+		16DAC2CF1D2A3E8800EA7641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC2CD1D2A3E8800EA7641 /* Main.storyboard */; };
+		16DAC2D11D2A3E8800EA7641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC2D01D2A3E8800EA7641 /* Assets.xcassets */; };
+		16DAC2D41D2A3E8800EA7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC2D21D2A3E8800EA7641 /* LaunchScreen.storyboard */; };
+		16DAC2DF1D2A3E8800EA7641 /* rutime__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2DE1D2A3E8800EA7641 /* rutime__Tests.m */; };
+		16DAC2EA1D2A3E8800EA7641 /* rutime__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2E91D2A3E8800EA7641 /* rutime__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16DAC2DB1D2A3E8800EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC2B91D2A3E8800EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC2C01D2A3E8800EA7641;
+			remoteInfo = "rutime实用";
+		};
+		16DAC2E61D2A3E8800EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC2B91D2A3E8800EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC2C01D2A3E8800EA7641;
+			remoteInfo = "rutime实用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DAC2C11D2A3E8800EA7641 /* rutime实用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rutime实用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC2C51D2A3E8800EA7641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16DAC2C71D2A3E8800EA7641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16DAC2C81D2A3E8800EA7641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16DAC2CA1D2A3E8800EA7641 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16DAC2CB1D2A3E8800EA7641 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16DAC2CE1D2A3E8800EA7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16DAC2D01D2A3E8800EA7641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16DAC2D31D2A3E8800EA7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16DAC2D51D2A3E8800EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC2DA1D2A3E8800EA7641 /* rutime实用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rutime实用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC2DE1D2A3E8800EA7641 /* rutime__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rutime__Tests.m; sourceTree = "<group>"; };
+		16DAC2E01D2A3E8800EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC2E51D2A3E8800EA7641 /* rutime实用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rutime实用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC2E91D2A3E8800EA7641 /* rutime__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rutime__UITests.m; sourceTree = "<group>"; };
+		16DAC2EB1D2A3E8800EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DAC2BE1D2A3E8800EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2D71D2A3E8800EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2E21D2A3E8800EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DAC2B81D2A3E8800EA7641 = {
+			isa = PBXGroup;
+			children = (
+				16DAC2C31D2A3E8800EA7641 /* rutime实用 */,
+				16DAC2DD1D2A3E8800EA7641 /* rutime实用Tests */,
+				16DAC2E81D2A3E8800EA7641 /* rutime实用UITests */,
+				16DAC2C21D2A3E8800EA7641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16DAC2C21D2A3E8800EA7641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2C11D2A3E8800EA7641 /* rutime实用.app */,
+				16DAC2DA1D2A3E8800EA7641 /* rutime实用Tests.xctest */,
+				16DAC2E51D2A3E8800EA7641 /* rutime实用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16DAC2C31D2A3E8800EA7641 /* rutime实用 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2C71D2A3E8800EA7641 /* AppDelegate.h */,
+				16DAC2C81D2A3E8800EA7641 /* AppDelegate.m */,
+				16DAC2CA1D2A3E8800EA7641 /* ViewController.h */,
+				16DAC2CB1D2A3E8800EA7641 /* ViewController.m */,
+				16DAC2CD1D2A3E8800EA7641 /* Main.storyboard */,
+				16DAC2D01D2A3E8800EA7641 /* Assets.xcassets */,
+				16DAC2D21D2A3E8800EA7641 /* LaunchScreen.storyboard */,
+				16DAC2D51D2A3E8800EA7641 /* Info.plist */,
+				16DAC2C41D2A3E8800EA7641 /* Supporting Files */,
+			);
+			path = "rutime实用";
+			sourceTree = "<group>";
+		};
+		16DAC2C41D2A3E8800EA7641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2C51D2A3E8800EA7641 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16DAC2DD1D2A3E8800EA7641 /* rutime实用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2DE1D2A3E8800EA7641 /* rutime__Tests.m */,
+				16DAC2E01D2A3E8800EA7641 /* Info.plist */,
+			);
+			path = "rutime实用Tests";
+			sourceTree = "<group>";
+		};
+		16DAC2E81D2A3E8800EA7641 /* rutime实用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2E91D2A3E8800EA7641 /* rutime__UITests.m */,
+				16DAC2EB1D2A3E8800EA7641 /* Info.plist */,
+			);
+			path = "rutime实用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DAC2C01D2A3E8800EA7641 /* rutime实用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC2EE1D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用" */;
+			buildPhases = (
+				16DAC2BD1D2A3E8800EA7641 /* Sources */,
+				16DAC2BE1D2A3E8800EA7641 /* Frameworks */,
+				16DAC2BF1D2A3E8800EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rutime实用";
+			productName = "rutime实用";
+			productReference = 16DAC2C11D2A3E8800EA7641 /* rutime实用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16DAC2D91D2A3E8800EA7641 /* rutime实用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC2F11D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用Tests" */;
+			buildPhases = (
+				16DAC2D61D2A3E8800EA7641 /* Sources */,
+				16DAC2D71D2A3E8800EA7641 /* Frameworks */,
+				16DAC2D81D2A3E8800EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC2DC1D2A3E8800EA7641 /* PBXTargetDependency */,
+			);
+			name = "rutime实用Tests";
+			productName = "rutime实用Tests";
+			productReference = 16DAC2DA1D2A3E8800EA7641 /* rutime实用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16DAC2E41D2A3E8800EA7641 /* rutime实用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC2F41D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用UITests" */;
+			buildPhases = (
+				16DAC2E11D2A3E8800EA7641 /* Sources */,
+				16DAC2E21D2A3E8800EA7641 /* Frameworks */,
+				16DAC2E31D2A3E8800EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC2E71D2A3E8800EA7641 /* PBXTargetDependency */,
+			);
+			name = "rutime实用UITests";
+			productName = "rutime实用UITests";
+			productReference = 16DAC2E51D2A3E8800EA7641 /* rutime实用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16DAC2B91D2A3E8800EA7641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					16DAC2C01D2A3E8800EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+					};
+					16DAC2D91D2A3E8800EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC2C01D2A3E8800EA7641;
+					};
+					16DAC2E41D2A3E8800EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC2C01D2A3E8800EA7641;
+					};
+				};
+			};
+			buildConfigurationList = 16DAC2BC1D2A3E8800EA7641 /* Build configuration list for PBXProject "rutime实用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16DAC2B81D2A3E8800EA7641;
+			productRefGroup = 16DAC2C21D2A3E8800EA7641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DAC2C01D2A3E8800EA7641 /* rutime实用 */,
+				16DAC2D91D2A3E8800EA7641 /* rutime实用Tests */,
+				16DAC2E41D2A3E8800EA7641 /* rutime实用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DAC2BF1D2A3E8800EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC2D41D2A3E8800EA7641 /* LaunchScreen.storyboard in Resources */,
+				16DAC2D11D2A3E8800EA7641 /* Assets.xcassets in Resources */,
+				16DAC2CF1D2A3E8800EA7641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2D81D2A3E8800EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2E31D2A3E8800EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DAC2BD1D2A3E8800EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC2CC1D2A3E8800EA7641 /* ViewController.m in Sources */,
+				16DAC2C91D2A3E8800EA7641 /* AppDelegate.m in Sources */,
+				16DAC2C61D2A3E8800EA7641 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2D61D2A3E8800EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC2DF1D2A3E8800EA7641 /* rutime__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC2E11D2A3E8800EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC2EA1D2A3E8800EA7641 /* rutime__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16DAC2DC1D2A3E8800EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC2C01D2A3E8800EA7641 /* rutime实用 */;
+			targetProxy = 16DAC2DB1D2A3E8800EA7641 /* PBXContainerItemProxy */;
+		};
+		16DAC2E71D2A3E8800EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC2C01D2A3E8800EA7641 /* rutime实用 */;
+			targetProxy = 16DAC2E61D2A3E8800EA7641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16DAC2CD1D2A3E8800EA7641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DAC2CE1D2A3E8800EA7641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16DAC2D21D2A3E8800EA7641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DAC2D31D2A3E8800EA7641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16DAC2EC1D2A3E8800EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16DAC2ED1D2A3E8800EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16DAC2EF1D2A3E8800EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rutime实用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16DAC2F01D2A3E8800EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rutime实用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16DAC2F21D2A3E8800EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rutime实用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rutime实用.app/rutime实用";
+			};
+			name = Debug;
+		};
+		16DAC2F31D2A3E8800EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rutime实用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rutime实用.app/rutime实用";
+			};
+			name = Release;
+		};
+		16DAC2F51D2A3E8800EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rutime实用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rutime实用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16DAC2F61D2A3E8800EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rutime实用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.rutime--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rutime实用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16DAC2BC1D2A3E8800EA7641 /* Build configuration list for PBXProject "rutime实用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC2EC1D2A3E8800EA7641 /* Debug */,
+				16DAC2ED1D2A3E8800EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DAC2EE1D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC2EF1D2A3E8800EA7641 /* Debug */,
+				16DAC2F01D2A3E8800EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC2F11D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC2F21D2A3E8800EA7641 /* Debug */,
+				16DAC2F31D2A3E8800EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC2F41D2A3E8800EA7641 /* Build configuration list for PBXNativeTarget "rutime实用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC2F51D2A3E8800EA7641 /* Debug */,
+				16DAC2F61D2A3E8800EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16DAC2B91D2A3E8800EA7641 /* Project object */;
+}
