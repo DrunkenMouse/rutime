@@ -1,0 +1,26 @@
+{
+    "name" : "Tom",
+    "age" : 20,
+    "height" : "181",
+    "money" : "1000",
+    "dog" : {
+       "name" : "black",
+        "price" : "5000$",
+        "cat" : {
+            "name" : "鱼",
+            "weight" : 50
+        }      
+    },
+    "books" : [
+        {
+            "name" : "C",
+            "price" : 20.8,
+            "publisher" : "xx大学出版社"
+        },
+        {
+            "name" : "xx传",
+            "price" : 50.2,
+            "publisher" : "xx出版社"
+        }
+    ]  
+}

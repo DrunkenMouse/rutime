@@ -15,6 +15,17 @@
 		16DAC2D41D2A3E8800EA7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC2D21D2A3E8800EA7641 /* LaunchScreen.storyboard */; };
 		16DAC2DF1D2A3E8800EA7641 /* rutime__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2DE1D2A3E8800EA7641 /* rutime__Tests.m */; };
 		16DAC2EA1D2A3E8800EA7641 /* rutime__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2E91D2A3E8800EA7641 /* rutime__UITests.m */; };
+		16DAC2FB1D2A3EDA00EA7641 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC2FA1D2A3EDA00EA7641 /* UIImage+Category.m */; };
+		16DAC3041D2A41F800EA7641 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3031D2A41F800EA7641 /* NSObject+Category.m */; };
+		16DAC30A1D2A422B00EA7641 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3091D2A422B00EA7641 /* person.m */; };
+		16DAC30D1D2A458D00EA7641 /* personOfMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC30C1D2A458D00EA7641 /* personOfMac.m */; };
+		16DAC3141D2A478F00EA7641 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3131D2A478F00EA7641 /* NSObject+Category.m */; };
+		16DAC31A1D2A483F00EA7641 /* NSObject+JSONCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3191D2A483F00EA7641 /* NSObject+JSONCategory.m */; };
+		16DAC3201D2A4AE000EA7641 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC31F1D2A4AE000EA7641 /* dog.m */; };
+		16DAC3231D2A4AF500EA7641 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3221D2A4AF500EA7641 /* cat.m */; };
+		16DAC3261D2A4B7600EA7641 /* books.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3251D2A4B7600EA7641 /* books.m */; };
+		16DAC3291D2A4CCD00EA7641 /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC3281D2A4CCD00EA7641 /* user.m */; };
+		16DAC32B1D2A4DA700EA7641 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC32A1D2A4DA700EA7641 /* model.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		16DAC2E51D2A3E8800EA7641 /* rutime实用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rutime实用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DAC2E91D2A3E8800EA7641 /* rutime__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rutime__UITests.m; sourceTree = "<group>"; };
 		16DAC2EB1D2A3E8800EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC2F91D2A3EDA00EA7641 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		16DAC2FA1D2A3EDA00EA7641 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		16DAC3021D2A41F800EA7641 /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		16DAC3031D2A41F800EA7641 /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		16DAC3081D2A422B00EA7641 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		16DAC3091D2A422B00EA7641 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		16DAC30B1D2A458D00EA7641 /* personOfMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personOfMac.h; sourceTree = "<group>"; };
+		16DAC30C1D2A458D00EA7641 /* personOfMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personOfMac.m; sourceTree = "<group>"; };
+		16DAC30E1D2A467A00EA7641 /* decode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		16DAC3121D2A478F00EA7641 /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		16DAC3131D2A478F00EA7641 /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		16DAC3181D2A483F00EA7641 /* NSObject+JSONCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONCategory.h"; sourceTree = "<group>"; };
+		16DAC3191D2A483F00EA7641 /* NSObject+JSONCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONCategory.m"; sourceTree = "<group>"; };
+		16DAC31E1D2A4AE000EA7641 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		16DAC31F1D2A4AE000EA7641 /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
+		16DAC3211D2A4AF500EA7641 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		16DAC3221D2A4AF500EA7641 /* cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
+		16DAC3241D2A4B7600EA7641 /* books.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = books.h; sourceTree = "<group>"; };
+		16DAC3251D2A4B7600EA7641 /* books.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = books.m; sourceTree = "<group>"; };
+		16DAC3271D2A4CCD00EA7641 /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		16DAC3281D2A4CCD00EA7641 /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		16DAC32A1D2A4DA700EA7641 /* model.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +134,15 @@
 		16DAC2C31D2A3E8800EA7641 /* rutime实用 */ = {
 			isa = PBXGroup;
 			children = (
+				16DAC3011D2A41F800EA7641 /* 属性与对象关联 */,
+				16DAC3001D2A41D100EA7641 /* 归档解档 */,
+				16DAC2F71D2A3EC600EA7641 /* 方法交换 */,
+				16DAC2F81D2A3EC600EA7641 /* 字典转模型 */,
 				16DAC2C71D2A3E8800EA7641 /* AppDelegate.h */,
 				16DAC2C81D2A3E8800EA7641 /* AppDelegate.m */,
 				16DAC2CA1D2A3E8800EA7641 /* ViewController.h */,
 				16DAC2CB1D2A3E8800EA7641 /* ViewController.m */,
+				16DAC32A1D2A4DA700EA7641 /* model.json */,
 				16DAC2CD1D2A3E8800EA7641 /* Main.storyboard */,
 				16DAC2D01D2A3E8800EA7641 /* Assets.xcassets */,
 				16DAC2D21D2A3E8800EA7641 /* LaunchScreen.storyboard */,
@@ -138,6 +176,55 @@
 				16DAC2EB1D2A3E8800EA7641 /* Info.plist */,
 			);
 			path = "rutime实用UITests";
+			sourceTree = "<group>";
+		};
+		16DAC2F71D2A3EC600EA7641 /* 方法交换 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC2F91D2A3EDA00EA7641 /* UIImage+Category.h */,
+				16DAC2FA1D2A3EDA00EA7641 /* UIImage+Category.m */,
+			);
+			path = "方法交换";
+			sourceTree = "<group>";
+		};
+		16DAC2F81D2A3EC600EA7641 /* 字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3181D2A483F00EA7641 /* NSObject+JSONCategory.h */,
+				16DAC3191D2A483F00EA7641 /* NSObject+JSONCategory.m */,
+				16DAC3241D2A4B7600EA7641 /* books.h */,
+				16DAC3251D2A4B7600EA7641 /* books.m */,
+				16DAC31E1D2A4AE000EA7641 /* dog.h */,
+				16DAC31F1D2A4AE000EA7641 /* dog.m */,
+				16DAC3211D2A4AF500EA7641 /* cat.h */,
+				16DAC3221D2A4AF500EA7641 /* cat.m */,
+				16DAC3271D2A4CCD00EA7641 /* user.h */,
+				16DAC3281D2A4CCD00EA7641 /* user.m */,
+			);
+			path = "字典转模型";
+			sourceTree = "<group>";
+		};
+		16DAC3001D2A41D100EA7641 /* 归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3081D2A422B00EA7641 /* person.h */,
+				16DAC3091D2A422B00EA7641 /* person.m */,
+				16DAC30B1D2A458D00EA7641 /* personOfMac.h */,
+				16DAC30C1D2A458D00EA7641 /* personOfMac.m */,
+				16DAC30E1D2A467A00EA7641 /* decode.h */,
+				16DAC3121D2A478F00EA7641 /* NSObject+Category.h */,
+				16DAC3131D2A478F00EA7641 /* NSObject+Category.m */,
+			);
+			path = "归档解档";
+			sourceTree = "<group>";
+		};
+		16DAC3011D2A41F800EA7641 /* 属性与对象关联 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC3021D2A41F800EA7641 /* NSObject+Category.h */,
+				16DAC3031D2A41F800EA7641 /* NSObject+Category.m */,
+			);
+			path = "属性与对象关联";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +336,7 @@
 				16DAC2D41D2A3E8800EA7641 /* LaunchScreen.storyboard in Resources */,
 				16DAC2D11D2A3E8800EA7641 /* Assets.xcassets in Resources */,
 				16DAC2CF1D2A3E8800EA7641 /* Main.storyboard in Resources */,
+				16DAC32B1D2A4DA700EA7641 /* model.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DAC3231D2A4AF500EA7641 /* cat.m in Sources */,
+				16DAC3201D2A4AE000EA7641 /* dog.m in Sources */,
+				16DAC31A1D2A483F00EA7641 /* NSObject+JSONCategory.m in Sources */,
 				16DAC2CC1D2A3E8800EA7641 /* ViewController.m in Sources */,
+				16DAC3291D2A4CCD00EA7641 /* user.m in Sources */,
+				16DAC3261D2A4B7600EA7641 /* books.m in Sources */,
 				16DAC2C91D2A3E8800EA7641 /* AppDelegate.m in Sources */,
+				16DAC3041D2A41F800EA7641 /* NSObject+Category.m in Sources */,
 				16DAC2C61D2A3E8800EA7641 /* main.m in Sources */,
+				16DAC2FB1D2A3EDA00EA7641 /* UIImage+Category.m in Sources */,
+				16DAC3141D2A478F00EA7641 /* NSObject+Category.m in Sources */,
+				16DAC30D1D2A458D00EA7641 /* personOfMac.m in Sources */,
+				16DAC30A1D2A422B00EA7641 /* person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
